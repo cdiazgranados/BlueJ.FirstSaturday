@@ -169,11 +169,16 @@ public class WriteLoops {
         int runningScore = 0;
 
         // do your while loop here
- 
+        while (runningScore < highestScore) {
             // calling
+//            if (runningScore < highestScore) {
+                runningScore = currentScore;
+//            }
             w = w + 1;
             // each time through the inner loop
-        
+
+        }
+
         return w; // >= 3;
     }
 
@@ -347,7 +352,7 @@ public class WriteLoops {
      * all the examples interesting.
      */
     // instance variables - replace the example below with your own
-    private int x;
+    public int x;
 
     /**
      * Constructor for objects of class WriteLoops
@@ -357,16 +362,16 @@ public class WriteLoops {
         x = 0;
     }
 
-    private int gps = 0;
+    public int gps = 0;
 
-    private String gpsCurrentLocation() {
+    public String gpsCurrentLocation() {
         if (this.gps > 5) {
             return "Home";
         }
         return "Not Home";
     }
 
-    private void driveSomeMore() {
+    public void driveSomeMore() {
         this.gps += 1;
     }
 

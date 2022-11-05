@@ -86,12 +86,12 @@ public class WriteLoopsTest
         assertEquals(455, writeLoo1.countDownFrom5000());
     }
 
-    @Test
-    public void TestNestedFors()
-    {
-        WriteLoops writeLoo1 = new WriteLoops();
-        assertEquals(100, writeLoo1.nestedFors());
-    }
+//    @Test
+//    public void TestNestedFors()
+//    {
+//        WriteLoops writeLoo1 = new WriteLoops();
+//        assertEquals(100, writeLoo1.nestedFors());
+//    }
 
     @Test
     public void TestHelloZipCode()
@@ -100,21 +100,21 @@ public class WriteLoopsTest
         assertEquals(47, writeLoo1.helloZipCode());
     }
 
-    @Test
-    public void TestDriveHome()
-    {
-        WriteLoops writeLoo1 = new WriteLoops();
-        assertEquals(6, writeLoo1.driveHome());
-    }
+//    @Test
+//    public void TestDriveHome()
+//    {
+//        WriteLoops writeLoo1 = new WriteLoops();
+//        assertEquals(6, writeLoo1.driveHome());
+//    }
 
 
 
-    @Test
-    public void TestCheckGameScore()
-    {
-        WriteLoops writeLoo1 = new WriteLoops();
-        assertEquals(true, writeLoo1.checkGameScore());
-    }
+//    @Test
+//    public void TestCheckGameScore()
+//    {
+//        WriteLoops writeLoo1 = new WriteLoops();
+//        assertEquals(true, writeLoo1.checkGameScore());
+//    }
 
     @Test
     public void TestCheckGameScoreDoWhile()
@@ -123,10 +123,10 @@ public class WriteLoopsTest
         assertEquals(false, writeLoo1.checkGameScoreDoWhile());
     }
 
-    @Test
-    public void TestCheckServer()
-    {
-        WriteLoops writeLoo1 = new WriteLoops();
-        assertEquals(3, writeLoo1.checkServerStatus());
-    }
+//    @Test
+//    public void TestCheckServer()
+//    {
+//        WriteLoops writeLoo1 = new WriteLoops();
+//        assertEquals(3, writeLoo1.checkServerStatus());
+//    }
 }
